@@ -46,7 +46,7 @@ public class DebitCardFormTests {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("http://localhost:0000");
+        driver.get("http://localhost:9999");
     }
 
     @AfterEach
